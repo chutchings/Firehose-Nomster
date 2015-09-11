@@ -33,3 +33,24 @@ body {
 	color: #40C9F7;
 	font-family: 'nobileregular';
 }
+
+.pagination {
+	font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-align: right;	
+	
+}
+
+.pagination > li > a:hover, .pagination > li > a:focus, .pagination > li > span:hover, .pagination > li > span:focus {
+    z-index: 3;
+    color: #40c9f7;
+    background-color: #eeeeee;
+    border-color: #dddddd;
+}
+
+.pagination > .active > a, .pagination > .active > a:hover, .pagination > .active > a:focus, .pagination > .active > span, .pagination > .active > span:hover, .pagination > .active > span:focus {
+    z-index: 2;
+    color: white;
+    background-color: #40c9f7;
+    border-color: #40c9f7;
+    cursor: default;
+}
